@@ -1,0 +1,14 @@
+{
+  "name": "oxford-support-applications",
+  "private": true,
+  "scripts": {
+    "build": "esbuild src/main.tsx --bundle --jsx=automatic --minify --outfile=public/app.js"
+  },
+  "dependencies": {
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.0"
+  }
+}

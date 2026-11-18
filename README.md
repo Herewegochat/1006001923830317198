@@ -1,0 +1,2 @@
+# Oxford Response API support application
+Extract the ZIP. Open the folder containing vercel.json in your terminal and run `npx vercel` to link a new project. Choose the current directory as the project root. In Vercel project settings, add DISCORD_WEBHOOK_URL as a Production environment variable with your Discord webhook URL as its value. From the same folder run `npx vercel --prod`. The form confirms submission after Discord accepts the message.
